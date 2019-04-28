@@ -7,4 +7,11 @@ function myFunction() {
   var sidea=parseInt(data1);
   var sideb=parseInt(data2);
   var sidec=parseInt(dat3);
+
+  var sides=[sidea,sideb,sidec];
+  var type=["makes an equilateral triangle","makes an isosceles triangle","makes a scalene triangle","doesn't make a triangle"]
+}
+
+if {
+
 }
