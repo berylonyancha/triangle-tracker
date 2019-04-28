@@ -6,20 +6,19 @@
   <link href="css/styles.css" rel="stylesheet" type=text/css> </head>
 <body>
   <h1>Triangle Tracker</h1>
+  <img src="http://images.algebraden.com/geometry/big/sas-rule-of-congruent-triangles-4.jpg" alt="types-of-triangles">
   <p>Let's find out what triangle it is!</p>
   <form class="form">
     Side A:<br>
-    <input type="text" name="SideA"><br>
+    <input type="text" id="SideA" placeholder="Enter Side A"><br>
     Side B:<br>
-    <input type="text" name="SideB"><br>
+    <input type="text" id="SideB" placeholder="Enter Side B"><br>
     Side C:<br>
-    <input type="text" name="SideC"><br><br>
-    <input type="submit" value="Submit">
+    <input type="text" id="SideC" placeholder="Enter side C"><br><br>
+    <input type="button" value="Submit" onclick="myFunction()">
+    <span id="triangleTracker"></span>
 
   </form>
-  <footer>
-    <img src="https://www.onlinemathlearning.com/image-files/xtypes-of-triangles.png.pagespeed.ic.QehNKHzGr5.png" alt="types-of-triangles">
-  </footer>
 
   <script src="js/scripts.js"></script>
 
