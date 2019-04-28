@@ -1,5 +1,7 @@
 body{
-  background: url(https://stmed.net/sites/default/files/triangle-wallpapers-25326-2533591.jpg);
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/94/32/9057e8ee0cad761.jpg);
+  background-position:left;
+  background-size:contain;
 }
 h1{
   text-align: center;
@@ -7,4 +9,8 @@ h1{
 }
 .form{
   text-align: center;
+  background-color:gray;
+  height: 280px;
+  width: 320px;
+  border-radius: 20px;
 }
