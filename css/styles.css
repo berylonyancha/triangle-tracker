@@ -1,16 +1,35 @@
 body{
-  background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/94/32/9057e8ee0cad761.jpg);
+  background: url(https://images-na.ssl-images-amazon.com/images/I/711MQYZtUtL._SL1500_.jpg);
   background-position:left;
-  background-size:contain;
+  background-size:cover;
 }
 h1{
   text-align: center;
+  font-size: 40px;
+  background: black;
+  color: white;
+  width: 100%
+}
+img{
+  height: 200px;
+  margin-left: 400px;
+  
 
 }
+
 .form{
   text-align: center;
-  background-color:gray;
+  background-color:#F5E4D7;
   height: 280px;
   width: 320px;
   border-radius: 20px;
+  text-align: center;
+  margin-left: 490px;
+  margin-top: 40px;
+}
+p{
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff;
+  margin-top: 50px;
 }
