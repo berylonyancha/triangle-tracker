@@ -1,46 +1,36 @@
-var myFunction =function(sidea, sideb, side c) {
+var myFunction = function(sidea, sideb, sidec) {
 
 
 
-  var sidea=parseInt(document.getElementById("sideA").value);
-  var sideb=parseInt(document.getElementById("sideB").value);
-  var sidec=parseInt(document.getElementById("sideC").value);
+  var sidea = parseInt(document.getElementById("sidea").value);
+  var sideb = arseInt(document.getElementById("sideb").value);
+  var sidec = parseInt(document.getElementById("sidec").value);
 
-  var sides=[sidea,sideb,sidec];
-  var type=["equilateral triangle","isosceles triangle","scalene triangle","not a triangle"]
+  var sides = [sidea,sideb,sidec];
+  var output = document.getElementById("output");
  
 
 
- if 
-    (
-        sidea + sideb > sidec &&
-        sideb + sidec > sidea &&
-        sidea + sidec> sideb &&
-        (sidea === sideb && sideb === sidec);
-    ) {
+    if(sidea === sideb && sideb === sidec) {
+    
 
-        output.textcontent =
-        "Equilateral Triangle";
+        output.textcontent = "Equilateral Triangle";
     } else if (
-        sidea + sideb > sidec &&
-        sidea + sidec > sideb &&
-        sideb + sidec > sidea &&
-
-        ((sidea === sideb && sideb !== sidec) ||
-        (sidea === sidec && sidec !== sideb) ||
-        (sideb === sidec && sideb !== sidea))
-    ) {
+        sidea === sideb && sideb !== sidec ||
+        sidea === sidec && sidec !== sideb ||
+        sideb === sidec && sideb !== sidea)  {
+    
         output.textcontent =
         "Isosceles Triangle";
 
 
 
     } else if (
-        sidea + sideb > sidec &&
-        sidea + sidec > sideb &&
-        sideb + sidec > sidea &&
-        (sidea !== sideb && sideb !== sidec &&
-        sidea !== sidec)
+        // sidea + sideb > sidec &&
+        // sidea + sidec > sideb &&
+        // sideb + sidec > sidea &&
+        sidea !== sideb && sideb !== sidec &&
+        sidea !== sidec) {
         output.textcontent=
         "Scalene Triangle";
 
